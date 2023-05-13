@@ -37,9 +37,9 @@ temporary
 tmp
 __pycache__
 
-# data/*
-# models/*
-# outputs/*
+data/*
+models/*
+outputs/*
 __pycache__
 .coverage
 .mypy_cache
