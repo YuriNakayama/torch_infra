@@ -30,8 +30,6 @@
 .vscode-server
 
 etmenv
-data
-models
 nltk_data
 past
 scikit_learn_data
