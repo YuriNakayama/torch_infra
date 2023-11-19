@@ -1,11 +1,11 @@
-# torch_infra
+# torch_infra  
 
-.
-├── data
-├── environments
-├── models
-├── notebooks
-├── outputs
-├── src
-└── tests
+.  
+├── data  
+├── environments  
+├── models  
+├── notebooks  
+├── outputs  
+├── src  
+└── tests  
 
