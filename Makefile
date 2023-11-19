@@ -34,11 +34,21 @@ mypy:
 test:
 	poetry run pytest tests --cov=src --cov-report term-missing --durations 5
 
+.PHONY: nbqa-isort
+nbqa-isort:
+	poetry run nbqa isort notebooks
+
+.PHONY: nbqa-black
+nbqa-black:
+	poetry run nbqa black notebooks
+
 .PHONY: format
 format:
 	$(MAKE) black
 	$(MAKE) isort
 	$(MAKE) mdformat
+	$(MAKE) nbqa-black
+	$(MAKE) nbqa-isort
 
 .PHONY: lint
 lint:
