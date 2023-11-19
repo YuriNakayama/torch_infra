@@ -16,18 +16,27 @@
 *.npy
 
 .bash_history
+.bashrc
 .cache
 .config
 .dotnet
 .DS_Store
 .env
 .gitconfig
+.git-credentials
+.gotty.auth
 .ipynb_checkpoints
 .ipython
 .jupyter
+.launchpadlib
 .local
+.netrc
+.nv
+.profile
 .ssh
+.viminfo
 .vscode-server
+.wget-hsts
 
 etmenv
 nltk_data
